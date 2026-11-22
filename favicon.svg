@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Placeholder mark until the new logo is designed: sun over a planet horizon. -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2133"/>
+      <stop offset="1" stop-color="#3a2030"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="31" fill="url(#sky)"/>
+  <circle cx="32" cy="34" r="14" fill="#ff6b1a"/>
+  <path d="M1 40 Q32 30 63 40 L63 44 A31 31 0 0 1 1 44 Z" fill="#0b0d14"/>
+  <path d="M14 22 L26 19 L22 23 Z" fill="#ece8e1"/>
+</svg>

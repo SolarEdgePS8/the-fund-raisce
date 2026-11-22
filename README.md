@@ -1,10 +1,17 @@
-# The Fund RaiSCe — originalnahe Rekonstruktion
+# The Fund RaiSCe — Website-Kopie
 
-Basis: vom Nutzer bereitgestellte gespeicherte HTML-Startseite und vollständiger Screenshot der IONOS-Website.
+Basierend auf den vom Rechteinhaber zur Verfügung gestellten, am 22.11.2026 mit HTTrack gesicherten öffentlichen HTML-Seiten.
 
-- **Home**: Originale Texte, Astro-HTML-Struktur, im ursprünglichen HTML enthaltene Hero-/Section-CSS und visuell nachgebaute Basis-CSS.
-- **Fueling Minds** (`fueling-minds/?country=DE`): funktionierende Länderwahl, aber **nur Beispielorganisationen**. Original-Unterseite ist nicht enthalten.
-- **About, Impressum, Datenschutz**: gestaltete Unterseiten mit ausdrücklich gekennzeichneten Platzhaltern. Vor regulärem Betrieb rechtlich vervollständigen.
-- Keine Frameworks oder Build-Schritte nötig. GitHub Pages: `main` und `/ (root)`.
+Enthalten sind die fünf Originalseiten mit ihren originalen Astro-Styles direkt im HTML, damit die Formatierung auf GitHub Pages auch im Unterverzeichnis stabil funktioniert.
 
-Die Originalvideos, die originale externe CSS-Datei `Base.DtqHlZ1a.css` und der Inhalt der übrigen Originalunterseiten waren nicht Bestandteil des Uploads und konnten über den Server nicht abgerufen werden.
+- Home: `index.html`
+- Fueling Minds: `fueling-minds/index.html` (inkl. Länderauswahl)
+- About: `about/index.html`
+- Impressum: `impressum/index.html`
+- Datenschutz: `datenschutz/index.html`
+
+**Schrift:** DM Sans wird über Google Fonts geladen; bei Nichterreichbarkeit greift die Systemschrift. Bitte Datenschutzinformationen entsprechend prüfen.
+
+**Rechtliches:** Impressum und Datenschutzerklärung sind die Inhalte des gesicherten Originals. Sie enthalten möglicherweise Platzhalter und Hostingangaben zu IONOS, die bei GitHub Pages nicht zutreffen. Vor produktivem Einsatz prüfen und anpassen.
+
+Hosting: GitHub Pages → Settings → Pages → `Deploy from a branch`, `main`, `/ (root)`. Feld Custom domain leer lassen.
